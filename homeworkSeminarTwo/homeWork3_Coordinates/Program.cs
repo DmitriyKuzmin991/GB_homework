@@ -30,5 +30,5 @@ else if (numberOfPlace == 4)
 }
 else
 {
-  Console.WriteLine("Не верный номер");
+  Console.WriteLine("Неверный номер");
 }
