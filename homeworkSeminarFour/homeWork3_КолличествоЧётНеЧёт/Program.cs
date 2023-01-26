@@ -10,7 +10,6 @@ int[] myArray(int range, int minValue, int maxValue)
   {
     theArray[i] = rand.Next(minValue, maxValue);
   }
-
   return theArray;
 }
 
