@@ -11,7 +11,6 @@ int[] myArray(int range, int maxValue)
   {
     theArray[i] = rand.Next(maxValue);
   }
-
   return theArray;
 }
 
@@ -25,7 +24,6 @@ for (int i = 9; i < 98; i++)
 
 System.Console.WriteLine("Строка из найденных значений\n" + strNumber + "\n");
 System.Console.WriteLine("Количество элементов в нужном отрезке = " + strNumber.Length + "\n");
-//System.Console.WriteLine("Массив: " + string.Join("; ", theArray));
 System.Console.Write("Элементы масива из нужного отрезка ");
 for (int i = 9; i < 98; i++)
 {

@@ -13,7 +13,6 @@ int[] myArray(int range, int maxValue)
   {
     theArray[i] = rand.Next(maxValue);
   }
-
   return theArray;
 }
 

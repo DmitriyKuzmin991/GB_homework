@@ -1,16 +1,13 @@
 ﻿// Определить, присутствует ли в заданном массиве, некоторое число
 
-
 int[] myArray(int range, int maxValue)
 {
   int [] theArray = new int [range];
   Random rand = new Random();
-
-  for (int i = 0; i < theArray.Length; i++)
-  {
-    theArray[i] = rand.Next(maxValue); 
-  }
-  
+    for (int i = 0; i < theArray.Length; i++)
+    {
+     theArray[i] = rand.Next(maxValue); 
+    }
   return theArray;
 }
 
@@ -25,7 +22,6 @@ for (int i = 0; i < theArray.Length; i++)
     result = 1;
     break;
   }
-  
 }
 
 if (result == 1)
