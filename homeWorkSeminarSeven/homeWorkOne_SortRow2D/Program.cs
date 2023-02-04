@@ -8,6 +8,7 @@ int n = int.Parse(Console.ReadLine());
 int[,] sortArray = new int[m, n];
 
 FillArray(sortArray);
+System.Console.WriteLine("\nИзначальный массив");
 PrintArray(sortArray);
 
 for (int k = 0; k < sortArray.GetLength(0); k++)
@@ -32,7 +33,7 @@ for (int k = 0; k < sortArray.GetLength(0); k++)
   }
 }
 
-System.Console.WriteLine();
+System.Console.WriteLine("\nСортированный массив");
 PrintArray(sortArray);
 
 
